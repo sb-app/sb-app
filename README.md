@@ -1,6 +1,8 @@
 # sb-app
 Stock market price prediction bots web application
 
--- Running
+- Running
+
 `make install`
+
 `make run`
