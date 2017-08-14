@@ -1,12 +1,9 @@
-app=src
-debug=true
+# ENVIRONMENT VARIABLES
+export FLASK_APP := src
+export FLASK_DEBUG := true
 
-EXPORT_APP=$(shell export FLASK_APP=$(app))
-EXPORT_DEBUG=$(shell export FLASK_DEBUG=$(debug))
 
-install:
-	$(EXPORT_APP)
-	$(EXPORT_DEBUG)
+install: 
 	sudo pip install -e .
 
 run:
