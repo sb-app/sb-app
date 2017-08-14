@@ -1,5 +1,5 @@
 # sb-app
-Stock market price prediction bots web API
+Stock market price prediction bots web application
 
 - Running
 
